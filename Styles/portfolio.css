@@ -8,18 +8,27 @@
 .btn-primary{
     border-radius: 5px;
     background-color: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px;
 }
 /* Nav style */
 nav{
-    display: flex;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
 }
 .nav-title{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+nav>ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -28,4 +37,17 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* header style */
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .banner-pic{
+    width: 600px;
 }
