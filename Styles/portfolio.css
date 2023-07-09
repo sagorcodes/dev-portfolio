@@ -15,7 +15,6 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 20px;
-    /* margin: 0 20px; */
 }
 /* Nav style */
 nav{
@@ -188,7 +187,7 @@ footer{
     gap: 120px;
     background: #FFF8F3;
     margin-top: 100px;
-    padding: 130px 200px;  
+    padding: 50px 200px;
 }
 .footer-column{
     width: 50%;
@@ -207,7 +206,19 @@ footer{
 }
 #footer-description{
     text-align: start;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
-.social-links{
-    justify-content: space-between;
+.social-links a{
+    padding-left: 25px;
+}
+#from-message-btn{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px;
+    width: 150px;
 }
