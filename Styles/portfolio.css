@@ -181,3 +181,33 @@ main{
 #Resume-section-button{
     margin: 50px 480px;
 }
+
+/* Footer section */
+footer{
+    display: flex;
+    gap: 120px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;  
+}
+.footer-column{
+    width: 50%;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    width: 461px;
+}
+#footer-title{
+    text-align: start;
+}
+#footer-description{
+    text-align: start;
+}
+.social-links{
+    justify-content: space-between;
+}
