@@ -90,7 +90,6 @@ main{
 }
 /* about section style */
 .about{
-    padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
     margin: 130px;
@@ -123,4 +122,30 @@ main{
 /* What I do section */
 #What-I-do-description{
     padding: 30px 150px;
+    font-weight: 400;
+}
+.skills-container{
+    display: flex;
+    margin: 132px;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    text-align: left;
+    font-size: 20px;
+    align-items: start;
+    
+}
+.skill-icons{
+    margin-left: -155px;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
 }
