@@ -15,6 +15,18 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 20px;
+    transition: background-color 0.3s;
+}
+ /* Icon styles */
+ .btn-primary i {
+    display: none;
+}
+.btn-primary:hover{
+    background-color: #e76000;
+}
+/* Show icon on hover */
+.btn-primary:hover i {
+    display: inline;
 }
 /* Nav style */
 nav{
@@ -221,4 +233,8 @@ footer{
     font-weight: 700;
     padding: 15px 20px;
     width: 150px;
+    transition: background-color 0.3s;
+}
+#from-message-btn:hover{
+    background-color: #e76000;
 }
