@@ -15,6 +15,7 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 20px;
+    /* margin: 0 20px; */
 }
 /* Nav style */
 nav{
@@ -115,4 +116,11 @@ main{
 }
 .info-description{
     font-weight: bold;
+    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+/* What I do section */
+#What-I-do-description{
+    padding: 30px 150px;
 }
