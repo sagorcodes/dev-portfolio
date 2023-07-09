@@ -149,3 +149,7 @@ main{
     line-height: 28px;
     text-align: left;
 }
+/* A summary of My Resume section */
+.resume-column-title{
+    color: #474747;
+}
